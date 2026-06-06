@@ -8,5 +8,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo  $GITHUB_ACTION_PATH
+      - run: echo $GITHUB_WORKSPACE
         shell: bash
