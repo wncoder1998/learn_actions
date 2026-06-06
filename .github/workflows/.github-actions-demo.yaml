@@ -13,4 +13,3 @@ jobs:
       - run: |
           echo $GITHUB_WORKSPACE
           echo $APP_NAME
-        shell: bash
