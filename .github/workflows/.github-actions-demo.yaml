@@ -7,7 +7,9 @@ on: push
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
+    env:
+      APP_NAME: ${{ vars.APP_NAME }}
     steps:
       - run: |
           echo $GITHUB_WORKSPACE
-          echo ${{ env.APP_NAME }}
+          echo $APP_NAME
